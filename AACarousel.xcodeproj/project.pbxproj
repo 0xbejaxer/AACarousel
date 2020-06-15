@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD157D7235AE2B39CB313B0 /* Pods_AACarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D9E4281DE327A4E4090A74 /* Pods_AACarousel.framework */; };
+		E71F98011F1E567200D263F1 /* AACarouselCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = E71F97FF1F1E567200D263F1 /* AACarouselCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E71F98041F1E567200D263F1 /* AACarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F97FD1F1E567200D263F1 /* AACarousel.framework */; };
+		E71F98051F1E567200D263F1 /* AACarousel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E71F97FD1F1E567200D263F1 /* AACarousel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E76E3B3D1F81F16100E69BE2 /* AACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD9FBC1EED3FBD00A57E46 /* AACarousel.swift */; };
+		E7BD5B5E1EED24420099D276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD5B5D1EED24420099D276 /* AppDelegate.swift */; };
+		E7BD5B601EED24420099D276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD5B5F1EED24420099D276 /* ViewController.swift */; };
+		E7BD5B631EED24420099D276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BD5B611EED24420099D276 /* Main.storyboard */; };
+		E7BD5B651EED24420099D276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BD5B641EED24420099D276 /* Assets.xcassets */; };
+		E7BD5B681EED24420099D276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BD5B661EED24420099D276 /* LaunchScreen.storyboard */; };
+		E7CD9FBD1EED3FBD00A57E46 /* AACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CD9FBC1EED3FBD00A57E46 /* AACarousel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E71F98021F1E567200D263F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BD5B521EED24420099D276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E71F97FC1F1E567200D263F1;
+			remoteInfo = AACarouselCarthage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E71F98091F1E567200D263F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E71F98051F1E567200D263F1 /* AACarousel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F8BE8B1450D07C400ABF14A /* Pods-AACarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AACarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-AACarousel/Pods-AACarousel.release.xcconfig"; sourceTree = "<group>"; };
+		33268D856381BF7CA9E52598 /* Pods-AACarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AACarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AACarousel/Pods-AACarousel.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D9E4281DE327A4E4090A74 /* Pods_AACarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AACarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71F97FD1F1E567200D263F1 /* AACarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AACarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71F97FF1F1E567200D263F1 /* AACarouselCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACarouselCarthage.h; sourceTree = "<group>"; };
+		E71F98001F1E567200D263F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BD5B5A1EED24420099D276 /* AACarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AACarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BD5B5D1EED24420099D276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7BD5B5F1EED24420099D276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7BD5B621EED24420099D276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BD5B641EED24420099D276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BD5B671EED24420099D276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7BD5B691EED24420099D276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CD9FBC1EED3FBD00A57E46 /* AACarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AACarousel.swift; sourceTree = "<group>"; };
+		E7CD9FBE1EED424100A57E46 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "Pods/../build/Release-iphoneos/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		E7CD9FC01EED46A000A57E46 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71F97F91F1E567200D263F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD5B571EED24420099D276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD157D7235AE2B39CB313B0 /* Pods_AACarousel.framework in Frameworks */,
+				E71F98041F1E567200D263F1 /* AACarousel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46DA8A20C6FD006860F72D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33268D856381BF7CA9E52598 /* Pods-AACarousel.debug.xcconfig */,
+				1F8BE8B1450D07C400ABF14A /* Pods-AACarousel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B20986F50FD029EE8DAAF6A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7CD9FC01EED46A000A57E46 /* libxml2.2.tbd */,
+				E7CD9FBE1EED424100A57E46 /* Kingfisher.framework */,
+				C3D9E4281DE327A4E4090A74 /* Pods_AACarousel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71F97FE1F1E567200D263F1 /* AACarouselCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				E71F97FF1F1E567200D263F1 /* AACarouselCarthage.h */,
+				E71F98001F1E567200D263F1 /* Info.plist */,
+			);
+			path = AACarouselCarthage;
+			sourceTree = "<group>";
+		};
+		E7BD5B511EED24420099D276 = {
+			isa = PBXGroup;
+			children = (
+				E7BD5B5C1EED24420099D276 /* AACarousel */,
+				E71F97FE1F1E567200D263F1 /* AACarouselCarthage */,
+				E7BD5B5B1EED24420099D276 /* Products */,
+				46DA8A20C6FD006860F72D7C /* Pods */,
+				B20986F50FD029EE8DAAF6A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BD5B5B1EED24420099D276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BD5B5A1EED24420099D276 /* AACarousel.app */,
+				E71F97FD1F1E567200D263F1 /* AACarousel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7BD5B5C1EED24420099D276 /* AACarousel */ = {
+			isa = PBXGroup;
+			children = (
+				E7BD5B5D1EED24420099D276 /* AppDelegate.swift */,
+				E7BD5B5F1EED24420099D276 /* ViewController.swift */,
+				E7CD9FBC1EED3FBD00A57E46 /* AACarousel.swift */,
+				E7BD5B611EED24420099D276 /* Main.storyboard */,
+				E7BD5B641EED24420099D276 /* Assets.xcassets */,
+				E7BD5B661EED24420099D276 /* LaunchScreen.storyboard */,
+				E7BD5B691EED24420099D276 /* Info.plist */,
+			);
+			path = AACarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E71F97FA1F1E567200D263F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71F98011F1E567200D263F1 /* AACarouselCarthage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E71F97FC1F1E567200D263F1 /* AACarouselCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71F98081F1E567200D263F1 /* Build configuration list for PBXNativeTarget "AACarouselCarthage" */;
+			buildPhases = (
+				E71F97F81F1E567200D263F1 /* Sources */,
+				E71F97F91F1E567200D263F1 /* Frameworks */,
+				E71F97FA1F1E567200D263F1 /* Headers */,
+				E71F97FB1F1E567200D263F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AACarouselCarthage;
+			productName = AACarouselCarthage;
+			productReference = E71F97FD1F1E567200D263F1 /* AACarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7BD5B591EED24420099D276 /* AACarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BD5B6C1EED24420099D276 /* Build configuration list for PBXNativeTarget "AACarousel" */;
+			buildPhases = (
+				7CEBBD4544803D027D1F55DA /* [CP] Check Pods Manifest.lock */,
+				E7BD5B561EED24420099D276 /* Sources */,
+				E7BD5B571EED24420099D276 /* Frameworks */,
+				E7BD5B581EED24420099D276 /* Resources */,
+				1215121B72757107402316C6 /* [CP] Embed Pods Frameworks */,
+				E71F98091F1E567200D263F1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71F98031F1E567200D263F1 /* PBXTargetDependency */,
+			);
+			name = AACarousel;
+			productName = AACarousel;
+			productReference = E7BD5B5A1EED24420099D276 /* AACarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7BD5B521EED24420099D276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Alan;
+				TargetAttributes = {
+					E71F97FC1F1E567200D263F1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					E7BD5B591EED24420099D276 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2MRXT46WNF;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7BD5B551EED24420099D276 /* Build configuration list for PBXProject "AACarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7BD5B511EED24420099D276;
+			productRefGroup = E7BD5B5B1EED24420099D276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7BD5B591EED24420099D276 /* AACarousel */,
+				E71F97FC1F1E567200D263F1 /* AACarouselCarthage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71F97FB1F1E567200D263F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD5B581EED24420099D276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BD5B681EED24420099D276 /* LaunchScreen.storyboard in Resources */,
+				E7BD5B651EED24420099D276 /* Assets.xcassets in Resources */,
+				E7BD5B631EED24420099D276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1215121B72757107402316C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AACarousel/Pods-AACarousel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AACarousel/Pods-AACarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CEBBD4544803D027D1F55DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AACarousel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71F97F81F1E567200D263F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76E3B3D1F81F16100E69BE2 /* AACarousel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD5B561EED24420099D276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BD5B601EED24420099D276 /* ViewController.swift in Sources */,
+				E7BD5B5E1EED24420099D276 /* AppDelegate.swift in Sources */,
+				E7CD9FBD1EED3FBD00A57E46 /* AACarousel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E71F98031F1E567200D263F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E71F97FC1F1E567200D263F1 /* AACarouselCarthage */;
+			targetProxy = E71F98021F1E567200D263F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7BD5B611EED24420099D276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BD5B621EED24420099D276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BD5B661EED24420099D276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BD5B671EED24420099D276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E71F98061F1E567200D263F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AACarouselCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.AACarousel;
+				PRODUCT_NAME = AACarousel;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E71F98071F1E567200D263F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AACarouselCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.AACarousel;
+				PRODUCT_NAME = AACarousel;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7BD5B6A1EED24420099D276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7BD5B6B1EED24420099D276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BD5B6D1EED24420099D276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33268D856381BF7CA9E52598 /* Pods-AACarousel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2MRXT46WNF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Kingfisher",
+				);
+				INFOPLIST_FILE = AACarousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftTool.AACarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		E7BD5B6E1EED24420099D276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8BE8B1450D07C400ABF14A /* Pods-AACarousel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2MRXT46WNF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Kingfisher",
+				);
+				INFOPLIST_FILE = AACarousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftTool.AACarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71F98081F1E567200D263F1 /* Build configuration list for PBXNativeTarget "AACarouselCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71F98061F1E567200D263F1 /* Debug */,
+				E71F98071F1E567200D263F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BD5B551EED24420099D276 /* Build configuration list for PBXProject "AACarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BD5B6A1EED24420099D276 /* Debug */,
+				E7BD5B6B1EED24420099D276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BD5B6C1EED24420099D276 /* Build configuration list for PBXNativeTarget "AACarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BD5B6D1EED24420099D276 /* Debug */,
+				E7BD5B6E1EED24420099D276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7BD5B521EED24420099D276 /* Project object */;
+}
